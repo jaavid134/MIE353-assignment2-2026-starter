@@ -39,6 +39,14 @@ public class Main {
         
         // EXTRA MAIN FUNCTION CALLS CAN GO BELOW:
         findgradCourses();
+        query1();
+        query2();
+        query3();
+        query4();
+        query5();
+        query6();
+        query7();
+        query8();
       }
       catch (Exception e) {
         e.printStackTrace();
@@ -95,5 +103,52 @@ public class Main {
     });
     CMS.commit();
   }
-
+  public static void query1() throws SQLException {
+    CMS.addSqlChange(ctx -> {
+      Query1.execute(ctx);
+    });
+    CMS.commit();
+  }
+  public static void query2() throws SQLException {
+    CMS.addSqlChange(ctx -> {
+      Query2.execute(ctx);
+    });
+    CMS.commit();
+  }
+  public static void query3() throws SQLException {
+    CMS.addSqlChange(ctx -> {
+      Query3.execute(ctx);
+    });
+    CMS.commit();
+  }
+  public static void query4() throws SQLException {
+    CMS.addSqlChange(ctx -> {
+      Query4.execute(ctx);
+    });
+    CMS.commit();
+  }
+  public static void query5() throws SQLException {
+    CMS.addSqlChange(ctx -> {
+      Query5.execute(ctx);
+    });
+    CMS.commit();
+  }
+  public static void query6() throws SQLException {
+    CMS.addSqlChange(ctx -> {
+      Query6.execute(ctx);
+    });
+    CMS.commit();
+  }
+  public static void query7() throws SQLException {
+    CMS.addSqlChange(ctx -> {
+      Query7.execute(ctx);
+    });
+    CMS.commit();
+  }
+  public static void query8() throws SQLException {
+    CMS.addSqlChange(ctx -> {
+      Query8.execute(ctx);
+    });
+    CMS.commit();
+  }
 }
