@@ -38,9 +38,7 @@ public class Main {
         CMS.commit();
         
         // EXTRA MAIN FUNCTION CALLS CAN GO BELOW:
-
-
-        
+        findgradCourses();
       }
       catch (Exception e) {
         e.printStackTrace();
@@ -91,4 +89,11 @@ public class Main {
     });
     CMS.commit();
   }
+  public static void findgradCourses() throws SQLException {
+    CMS.addSqlChange(ctx -> {
+      FindgradCourses.execute(ctx);
+    });
+    CMS.commit();
+  }
+
 }
