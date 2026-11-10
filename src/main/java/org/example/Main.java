@@ -105,49 +105,49 @@ public class Main {
   }
   public static void query1() throws SQLException {
     CMS.addSqlChange(ctx -> {
-      Query1.execute(ctx);
+      query1.execute(ctx);
     });
     CMS.commit();
   }
   public static void query2() throws SQLException {
     CMS.addSqlChange(ctx -> {
-      Query2.execute(ctx);
+      query2.execute(ctx);
     });
     CMS.commit();
   }
   public static void query3() throws SQLException {
     CMS.addSqlChange(ctx -> {
-      Query3.execute(ctx);
+      query3.execute(ctx);
     });
     CMS.commit();
   }
   public static void query4() throws SQLException {
     CMS.addSqlChange(ctx -> {
-      Query4.execute(ctx);
+      query4.execute(ctx);
     });
     CMS.commit();
   }
   public static void query5() throws SQLException {
     CMS.addSqlChange(ctx -> {
-      Query5.execute(ctx);
+      query5.execute(ctx);
     });
     CMS.commit();
   }
   public static void query6() throws SQLException {
     CMS.addSqlChange(ctx -> {
-      Query6.execute(ctx);
+      query6.execute(ctx);
     });
     CMS.commit();
   }
   public static void query7() throws SQLException {
     CMS.addSqlChange(ctx -> {
-      Query7.execute(ctx);
+      query7.execute(ctx);
     });
     CMS.commit();
   }
   public static void query8() throws SQLException {
     CMS.addSqlChange(ctx -> {
-      Query8.execute(ctx);
+      query8.execute(ctx);
     });
     CMS.commit();
   }
